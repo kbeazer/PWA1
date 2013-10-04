@@ -27,3 +27,18 @@ var lastName= 'Beazer';
 function fullName(firstName, lastName){
     return firstName+' '+lastName;
 }console.log(fullName(firstName, lastName))
+
+//create a function named 'wordCount'
+//- accept 1 parameter into the function that is a long string of text words
+//- create a function that counts all the words and return the answer
+//- console.log the answer outside of the function
+
+var text= 'This is going to be a tough one to pull off';
+function wordCount(counter){
+   var words= 0;
+   for(var i=0;i<counter.length();i++){
+       if(counter==''){
+           words+=i;
+       }
+   }  return words+1;
+} console.log(wordCount(text));
