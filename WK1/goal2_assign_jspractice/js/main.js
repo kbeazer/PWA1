@@ -69,14 +69,15 @@
 
     //--------------------------------------------------------
     console.log("3. word count");
-    var ipsum = "this is test text that is being used as input to a function"
+    var ipsum = "this is test text that is being used as input to a function";
     function wordCount(words){
         var counter= 0;
+        words.split(',');
         for(var i=0;i<words.length;i++){
-            if(words==''){
-                counter+=i;
-            }
-        }  return words+1;
+            counter+=words[i]
+
+
+        }  return counter;
     }
     console.log(wordCount(ipsum));
 
@@ -84,10 +85,11 @@
     console.log("4. sentence char count");
 
     function charCount(letters){
-        var result= 0;
+        var counter= 0;
+        letters.split(',');
         for(var i=0;i<letters.length;i++){
-            result+=letters[i];
-        } return result;
+            counter+= 1;
+        } return counter;
     }
 
     console.log(charCount(ipsum));
@@ -108,9 +110,9 @@
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-    function findNum([],odd){
-
-    }
+//    function findNum([],even){
+//
+//    }
 
     console.log(findNum([31,22,4,67,83,6,5,4]));
     console.log(findNum([31,22,4,67,83,6,5,4], false));
