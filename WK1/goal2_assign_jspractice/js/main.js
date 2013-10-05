@@ -71,13 +71,9 @@
     console.log("3. word count");
     var ipsum = "this is test text that is being used as input to a function";
     function wordCount(words){
-        var counter= 0;
-        words.split(',');
-        for(var i=0;i<words.length;i++){
-            counter+=words[i]
 
-
-        }  return counter;
+        var count= words.split(' ');
+        return count.length;
     }
     console.log(wordCount(ipsum));
 
