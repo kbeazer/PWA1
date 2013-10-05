@@ -71,7 +71,6 @@
     console.log("3. word count");
     var ipsum = "this is test text that is being used as input to a function";
     function wordCount(words){
-
         var count= words.split(' ');
         return count.length;
     }
@@ -94,11 +93,16 @@
     console.log("5. how many vowels in a word");
 
     function vowelsInWord(vowelString){
-        var vowel= [a,e,i,o,u];
-        var vowAmount= 0;
-        for(var i=0;i<vowelString.length;i++){
-
-        }
+        var vowCount= 0;
+        var smallLetters= vowelString.toLowerCase();
+        vowelString.split(" ");
+        for(var i=0;i<smallLetters.length;i++){
+           if(smallLetters[i]== 'a'|| smallLetters[i]=='e'||smallLetters[i]=='i'||smallLetters[i]=='o'||smallLetters[i]=='u'){
+               vowCount+=1;
+           }else{
+               vowCount+=0;
+           }
+        }return vowCount;
     }
 
     console.log(vowelsInWord('JavaScript'));
@@ -106,9 +110,17 @@
     //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-//    function findNum([],even){
-//
-//    }
+    function findNum(array,even){
+        array= [];
+        for(var i=0;i<array.length;i++){
+            if(array[i]%2== 0){
+                array[i]+=i;
+                even= true;
+            }else if(array[i]%2!= 0|| even== null){
+                array[i]+=i;
+            }
+        }return array;
+    }
 
     console.log(findNum([31,22,4,67,83,6,5,4]));
     console.log(findNum([31,22,4,67,83,6,5,4], false));
