@@ -2,8 +2,10 @@
 // 10/1/13
 // The Dual Assignment
 
-var leftFighter= ['KABAL', 100, 50];
-var rightFighter= ['KRATOS', 100, 50];
+fighter1= {name:'KABAL',damage: 50, health:  100};
+fighter2= {name:'KRATOS',damage: 50, health:  100};
+var fighterArray= [fighter1, fighter2];
+
 var round= 0;
 
 function kingFighter(){
