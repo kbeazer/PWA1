@@ -2,14 +2,19 @@
 // 10/1/13
 // The Dual Assignment
 
-fighter1= {name:'KABAL',damage: 50, health:  100};
-fighter2= {name:'KRATOS',damage: 50, health:  100};
-var fighterArray= [fighter1, fighter2];
-
+var fighterArray= [{name: 'KABAL',
+                    damage: 50,
+                    health: 100},
+                   {name: 'KRATOS',
+                    damage: 50,
+                    health: 100}];
 var round= 0;
 
 function kingFighter(){
     console.log('BEGIN!!!');
+    var kabalDiv= document.getElementById("kabal"),
+        kratosDiv= document.getElementById("kratos")
+
     alert(leftFighter[0]+': '+leftFighter[1]+'    VS.    '+rightFighter[0]+': '+rightFighter[1]);
     for(i=0;i<10;i++){
         player1Hit= leftFighter[2]/2;
