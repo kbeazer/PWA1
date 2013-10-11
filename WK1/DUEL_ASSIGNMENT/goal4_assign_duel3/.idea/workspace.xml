@@ -7,7 +7,7 @@
     <file path="/index.html" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381411256534" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../goal3_assign_debug/goal3_debug/js/search.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381258253312" ignored="false" />
     <file path="/search.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381258251591" ignored="false" />
-    <file path="/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381465586805" ignored="false" />
+    <file path="/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381467982024" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../PWA_CLASSWORK/PWA1_DAY5/index.html" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381411258887" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../PWA_CLASSWORK/PWA1_DAY5/js/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381414074022" ignored="false" />
     <file path="$PROJECT_DIR$/../goal2_assign_duel2/js/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381465408230" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="76" selection-start="871" selection-end="871" vertical-scroll-proportion="0.5030488">
+            <state line="64" column="30" selection-start="3208" selection-end="3208" vertical-scroll-proportion="1.4634147">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -352,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="76" selection-start="871" selection-end="871" vertical-scroll-proportion="0.5030488">
+        <state line="64" column="30" selection-start="3208" selection-end="3208" vertical-scroll-proportion="1.4634147">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
