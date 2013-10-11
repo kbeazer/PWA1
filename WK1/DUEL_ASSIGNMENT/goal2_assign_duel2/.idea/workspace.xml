@@ -5,7 +5,11 @@
     <ignored path="goal2_assign_duel2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.js" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381467982024" ignored="false" />
-    <file path="$PROJECT_DIR$/../goal4_assign_duel3/js/main.js" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381467986343" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_duel3/js/main.js" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381469453032" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_duel3/css/style.css" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381470917775" ignored="false" />
+    <file path="/style.css" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381470916232" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_duel3/index.html" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381471291092" ignored="false" />
+    <file path="/index.html" changelist="299626bb-863e-4762-8b75-9d3d3cefb5d7" time="1381471223218" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="49" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.8460366">
+            <state line="13" column="56" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2972561">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -124,6 +128,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal2_assign_duel2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal2_assign_duel2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -137,6 +155,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -288,7 +314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="49" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.8460366">
+        <state line="13" column="56" selection-start="396" selection-end="396" vertical-scroll-proportion="0.2972561">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

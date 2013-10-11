@@ -52,6 +52,17 @@ body{
 	width: 100%;
 }
 
+#Vs {
+    position: fixed;
+    z-index: 25;
+    margin: 11% 44%;
+}
+
+#Vs img{
+    height: 90%;
+    width: 90%;
+}
+
 .heading{
 	color: #1c80b3; 
 	font-family: Arial, Helvetica, sans-serif; 

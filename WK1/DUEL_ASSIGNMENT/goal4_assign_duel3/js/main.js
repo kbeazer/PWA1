@@ -11,7 +11,6 @@ var round= 0,
     kabalDiv.innerHTML= fighterArray[0].name+' :  '+ fighterArray[0].health;
     kratosDiv.innerHTML= fighterArray[1].name+' :  '+ fighterArray[1].health;
 function kingFighter(){
-    console.log('BEGIN!!!');
     fightButton.onclick= function fight(){
     var player1Hit= fighterArray[0].damage/ 2,
         player2hit= fighterArray[1].damage/ 2;
@@ -19,6 +18,7 @@ function kingFighter(){
         player2Damage= Math.floor(Math.random()*player2hit);
         fighterArray[0].health-=player1Damage;
         fighterArray[1].health-=player2Damage;
+        document.getElementById("Vs").style.display= 'none';
         var damageResult= winnerSelector();
         if(damageResult== 'no winner'){
             round++;
@@ -29,8 +29,8 @@ function kingFighter(){
         function winnerSelector(){
             var result= 'no winner';
             if(fighterArray[0].health<1 && fighterArray[1].health<1){
-                kabalDiv.innerHTML='DOUBLE';
-                kratosDiv.innerHTML= 'KO!!!';
+                kabalDiv.innerHTML='YOU BOTH DIE';
+                kratosDiv.innerHTML= 'DOUBLE KO!!!';
                 result= 'Double KO';
                 fightButton.onclick= document.getElementById("fight_box").disabled;
             }else if(fighterArray[0].health<1){
