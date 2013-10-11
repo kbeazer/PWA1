@@ -2,9 +2,9 @@
 // 10/1/13
 // The Dual Assignment
 
-var leftFighter= ['KABAL', 100, 50];
-var rightFighter= ['KRATOS', 100, 50];
-var round= 0;
+var leftFighter= ['KABAL', 100, 50],
+    rightFighter= ['KRATOS', 100, 50],
+    round= 0;
 
 function kingFighter(){
     console.log('BEGIN!!!');
