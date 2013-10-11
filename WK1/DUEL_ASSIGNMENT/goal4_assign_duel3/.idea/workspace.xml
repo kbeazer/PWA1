@@ -7,10 +7,10 @@
     <file path="/index.html" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381411256534" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../goal3_assign_debug/goal3_debug/js/search.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381258253312" ignored="false" />
     <file path="/search.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381258251591" ignored="false" />
-    <file path="/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381459087607" ignored="false" />
+    <file path="/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381465586805" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../PWA_CLASSWORK/PWA1_DAY5/index.html" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381411258887" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../PWA_CLASSWORK/PWA1_DAY5/js/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381414074022" ignored="false" />
-    <file path="$PROJECT_DIR$/../goal2_assign_duel2/js/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381456893410" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal2_assign_duel2/js/main.js" changelist="15dd5271-34c3-4153-bdf0-3e77226244dd" time="1381465408230" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="108" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.625">
+            <state line="1" column="123" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -51,7 +51,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="506" selection-end="506" vertical-scroll-proportion="0.29115853">
+            <state line="22" column="76" selection-start="871" selection-end="871" vertical-scroll-proportion="0.5030488">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -345,14 +345,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="108" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.625">
+        <state line="1" column="123" selection-start="18" selection-end="18" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="506" selection-end="506" vertical-scroll-proportion="0.29115853">
+        <state line="22" column="76" selection-start="871" selection-end="871" vertical-scroll-proportion="0.5030488">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
