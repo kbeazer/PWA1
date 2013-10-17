@@ -6,9 +6,9 @@
 
 
 (function(){
-    function Person(n,r){
-        this.n=[];
-        this.r=[];
+    function Person(){
+        this.n='';
+        this.r='';
     }
 
     var nameGroup=[],
@@ -28,12 +28,14 @@
     var people= [];
     function nameSelector(){
         var chosenRow=0;
-        this.n=names[Math.random()*names.length];
+//        this.n=names[Math.random()*names.length];
         doms.forEach(function(e){
-            chosenRow+=e;
+            chosenRow+=doms[e];
         });
         for(var i=0;i<3;i++){
-            var newGuy=new Person(names[this.n],chosenRow);
+            var newGuy=new Person();
+            newGuy.n=names[Math.round(Math.random()*names.length)];
+            newGuy.r=chosenRow;
             people.push(newGuy);
         }
     }nameSelector();

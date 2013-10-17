@@ -5,7 +5,7 @@
     <ignored path="object_instantiate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/object_instantiate.html" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1366546467875" ignored="false" />
-    <file path="/main.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1382048081907" ignored="false" />
+    <file path="/main.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1382049516271" ignored="false" />
     <file path="/person.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1366602597751" ignored="false" />
     <file path="$PROJECT_DIR$/../../PWA_CLASSWORK/PWA_DAY7/js/main.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1382024296908" ignored="false" />
     <file path="$PROJECT_DIR$/../../PWA_CLASSWORK/PWA_DAY7/js/objects.js" changelist="a4138b9d-fa4a-426f-937c-772f593c94b1" time="1382024034043" ignored="false" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="37" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.6112805">
+            <state line="38" column="66" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.86890244">
               <folding />
             </state>
           </provider>
@@ -379,7 +379,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="37" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.6112805">
+        <state line="38" column="66" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.86890244">
           <folding />
         </state>
       </provider>
