@@ -11,43 +11,42 @@
         this.r='';
     }
 
-    var nameGroup=[],
-        names=['Yamira','John','Kareem','Tameeka','Thomas'],
-        doms=[
-            r1c1=document.querySelector("r1c1"),
-            r1c2=document.querySelector("r1c2"),
-            r1c3=document.querySelector("r1c3"),
-            r2c1=document.querySelector("r2c1"),
-            r2c2=document.querySelector("r2c2"),
-            r2c3=document.querySelector("r2c3"),
-            r3c1=document.querySelector("r3c1"),
-            r3c2=document.querySelector("r3c2"),
-            r3c3=document.querySelector("r3c3")
-        ];
+    var names=['Yamira','John','Kareem','Tameeka','Thomas'],
+        doms={
+            r1c1:document.querySelector("r1c1"),
+            r1c2:document.querySelector("r1c2"),
+            r1c3:document.querySelector("r1c3"),
+            r2c1:document.querySelector("r2c1"),
+            r2c2:document.querySelector("r2c2"),
+            r2c3:document.querySelector("r2c3"),
+            r3c1:document.querySelector("r3c1"),
+            r3c2:document.querySelector("r3c2"),
+            r3c3:document.querySelector("r3c3")
+        };
 
-    var people= [];
+    var people= [],
+        rows=[];
+
+    function rowSelector(){
+        for(var i in doms){
+            var chosenRow='';
+            chosenRow+=i;
+            rows.push(chosenRow);
+        }
+    }
+
     function nameSelector(){
-        var chosenRow=0;
-//        this.n=names[Math.random()*names.length];
-        doms.forEach(function(e){
-            chosenRow+=doms[e];
-        });
-        for(var i=0;i<3;i++){
+        for(var j=0;j<3;j++){
             var newGuy=new Person();
             newGuy.n=names[Math.round(Math.random()*names.length)];
-            newGuy.r=chosenRow;
+            newGuy.r=rows[Math.round(Math.random()*rows.length)];
             people.push(newGuy);
         }
-    }nameSelector();
+    }
+
+    rowSelector();
+    nameSelector();
     console.log(people);
 
 
-//    for(i=0;i<3;i++){
-//
-//        var newGuy=new Person(nameGroup[i]);
-//        people.push(newGuy)
-//    }
-//     console.log(people);
-//    console.log(nameSelector());
-//    console.log(nameGroup);
 })();
