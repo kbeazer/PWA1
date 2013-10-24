@@ -14,13 +14,20 @@
         dss:document.querySelector("#dss")
     };
 
-    var userEntries={
+    var entryTester={
         nameEntry: /^([A-Z][a-z]*((\s)))+[A-Z][a-z]*$/,
         emailEntry: /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/,
         numberEntry: /^(\d{3})\d{3}-\d{4}$/,
         ssnEntry: /^\d{3}-\d{2}-\d{4}$/,
         passwordEntry: /^(?=.*[a-zA-Z])[a-zA-Z0-9_]{4,15}$/
     };
+
+    var nameAccept=entryTester.nameEntry.test(dom.userName.value),
+        emailAccept=entryTester.emailEntry.test(dom.email.value),
+        phoneAccept=entryTester.numberEntry.test(dom.phoneNumber.value),
+        ssnAccept=entryTester.ssnEntry.test(dom.ssn.value),
+        passwordAccept=entryTester.passwordEntry.test(dom.password.value);
+
     dom.submit.onsubmit = function(e){
 
 
@@ -36,23 +43,33 @@
 
 
     var validateField = function(inputName){
-        var nameAccept=userEntries.nameEntry.test(dom.userName.value),
-            emailAccept=userEntries.emailEntry.test(dom.email.value),
-            phoneAccept=userEntries.numberEntry.test(dom.phoneNumber.value),
-            ssnAccept=userEntries.ssnEntry.test(dom.ssn.value),
-            passwordAccept=userEntries.passwordEntry.test(dom.password.value);
 
-        if (inputName.name === 'id name goes here'){
-            var pattern = 'a RegEx pattern goes here'
+        var errorMsg = dom.dss.value;
 
-            //You will need to create an else-if statement for each input field id.  The
-            //      format will be similar to the above IF statement.
-
-
-        };
+        if(nameAccept){
+            console.log('Name was entered correctly');
+        }else{
+            errorMsg.innerHTML='Please enter your name to continue (Make sure the first letters of your name are capitalized)';
+        }if(emailAccept){
+            console.log('Email was entered correctly');
+        }else{
+            errorMsg.innerHTML='Please enter a valid email address to continue (i.e. johnsmith@someaccount.com)';
+        }if(phoneAccept){
+            console.log('Phone number was entered correctly');
+        }else{
+            errorMsg.innerHTML='Please enter a valid phone number to continue (i.e. (555)555-5555 )';
+        }if(ssnAccept){
+            console.log('SSN was entered correctly');
+        }else{
+            errorMsg.innerHTML='Please enter a valid Social Security Number to continue (i.e. 123-45-6789 )';
+        }if(passwordAccept){
+            console.log('Password was entered correctly');
+        }else{
+            errorMsg.innerHTML='Please enter a valid password to continue (4-15 characters long)'
+        }
 
         var pass = 'the RegEx .test statement is needed here';
-        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
+
 
         if (!pass || inputName.value.length < 2){
             errorMsg.style.display='block';
